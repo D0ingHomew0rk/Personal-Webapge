@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<head>
+    <title>Tom - Personal Webpage</title>
+    <style>
+        body {
+            background-color: lightblue;
+            color: #072032;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.5;
+            padding: 1rem;
+            text-align: center;
+        }
+        a {
+            font-size: large;
+            color: #072032;
+        }
+        p {
+            text-align: center;
+        }
+        ol, ul {
+            display: inline-block;
+            text-align: left;
+        }
+        table {
+            max-width: 600px;
+            width: 90%;
+            border-collapse: collapse;
+            background-color: white;
+            margin: 1rem auto;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #021826;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            color: #021826;
+        }
+
+        .places-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            justify-items: center;
+            align-items: start;
+            max-width: 640px;
+            margin: 0.5rem auto 1.5rem auto;
+        }
+        .places-grid a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .places-grid figure {
+            margin: 0;
+            text-align: center;
+            width: 100%;
+        }
+        .places-grid img {
+            width: 300px;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+
+        @media (max-width: 640px) {
+            .places-grid {
+                grid-template-columns: 1fr;
+                max-width: 360px;
+            }
+            .places-grid img {
+                width: 320px;
+                height: 200px;
+            }
+        }
+
+        .favorites-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            justify-items: center;
+            align-items: start;
+            max-width: 640px;
+            margin: 0.5rem auto 1.5rem auto;
+        }
+
+        .favorites-grid figure {
+            margin: 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        .favorites-grid img {
+            width: 300px;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+
+        .favorites-grid figcaption {
+            margin-top: 6px;
+            font-size: 0.95rem;
+        }
+
+    </style>
+</head>
+<header>
+    <h1>This is My Personal Webpage</h1>
+</header>
+<body>
+    <!--Contact Info-->
+        <h2>Tom Tran</h2>
+    <br>
+        <h3>Contact Info</h2>
+        <a href="mailto:tomdom@gmail.com">TomDom@gmail.com</a>
+    <br>
+        <a href="tel:594932320">+1 (589) 493-2320</a>
+    <br>
+        <!--Hobbies/Sports/Clubs (lists)-->
+        <h3>Habbits</h3>
+        <ol>
+            <li>Playing games</li>
+            <li>Play Basketball</li>
+            <li>Play Soccer</li>
+            <li>Watching movies</li>
+        </ol>
+    <br>
+        <!--Cources Taking-->
+        <h3>Cources Taking</h3>
+            <table border = 1>
+                <tr>
+                    <th>Type</th>
+                    <th>Cources</th>
+                    <th>Semester</th>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>English</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Honors</td>
+                    <td>Cybersecurity</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Honors</td>
+                    <td>FuncStatTrig</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>Personal Finance</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>Physics</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>Racquet Sports</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>US Government</td>
+                    <td>Semester 1</td>
+                </tr>
+                <tr>
+                    <td>Honors</td>
+                    <td>AerobicConditioning</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Honors</td>
+                    <td>Advanced Programming</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>Team Sports & Leadership</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>Physics</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>Global Foods</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>English</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Honors</td>
+                    <td>FuncStatTrig</td>
+                    <td>Semester 2</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>EL Resource Study Hall</td>
+                    <td>Semester 2</td>
+                </tr>
+        </table>
+
+        <!--Day I Was Born-->
+        <h3>Day I Was Born</h3>
+        <p>When I was born, a event that happened at that time was the United States financial crisis of 2007–2008. On this day, U.S. President George W. Bush delivered a major prime-time address to the nation.</p>
+        <p>My horoscope sign is Libra, this sign represent compassionate and empathetic. </p>
+        <p>My family has 4 people, me, my dad, my mom and my older sister.</p>
+
+        <!--Places I want to Visit-->
+        <h3>Places I want to Visit</h3>
+        <div class="places-grid">
+            <a href="https://en.wikipedia.org/wiki/Japan">
+                <figure>
+                    <img src="Tokyo.jpg" alt="Tokyo">
+                    <figcaption>Tokyo</figcaption>
+                </figure>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Paris">
+                <figure>
+                    <img src="Paris.jpg" alt="Paris">
+                    <figcaption>Paris</figcaption>
+                </figure>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/New_York_City">
+                <figure>
+                    <img src="New York.jpg" alt="New York">
+                    <figcaption>New York</figcaption>
+                </figure>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/London">
+                <figure>
+                    <img src="London.jpg" alt="London">
+                    <figcaption>London</figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <!--Future college / career plans -->
+        <h3>Future college / career plans</h3>
+        <p>I plan to attend WCTC to study Computer Science and become a software engineer.</p>
+        <ul>
+            <li>Study programming and data structures.</li>
+            <li>Build projects for a portfolio.</li>
+            <li>Earn internships for real-world experience.</li>
+        </ul>
+
+        <!--Favorite Things (include images)-->
+        <h3>Favorite Things</h3>
+        <p>My favorite things include:</p>
+        <div class="favorites-grid">
+            <figure>
+                <img src="Gaming.jpg" alt="Playing video games">
+                <figcaption>Playing video games</figcaption>
+            </figure>
+            <figure>
+                <img src="Basketball.jpg" alt="Playing basketball">
+                <figcaption>Playing basketball</figcaption>
+            </figure>
+            <figure>
+                <img src="Music.png" alt="Listening to music">
+                <figcaption>Listening to music</figcaption>
+            </figure>
+        </div>
+        <!--Personality Traits-->
+        <h3>Personality Traits</h3>
+        <p>Some of my personality traits include:</p>
+        <ul>
+            <li>Introverted: 55%</li>
+            <li>Observant: 54%</li>
+            <li>Thinking: 59%</li>
+            <li>Prospecting: 60%</li>
+            <li>Turbulent: 60%</li>
+        </ul>
+        <figure class="personality-figure">
+            <img src="Personality.png" alt="Personality traits">
+            <figcaption>MBTI Results</figcaption>
+        </figure>
+    </body>
